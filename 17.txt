@@ -1,0 +1,32 @@
+前情回顾
+
+1. FTP文件服务
+
+   请求应答
+
+2. IO模型
+
+   IO ： cpu消耗少 速度慢  易阻塞
+
+   * 阻塞IO： 效率低 简单
+
+   * 非阻塞 ： setblocking()  settimeout()
+
+3. io 多路复用
+
+io多路复用方法对比
+
+                平台支持             监控IO数量     执行效率
+select         优秀（全部）             1024         一般
+
+poll           良好（Linux，unix）      无限制        一般
+
+epoll          较差（Linux）            无限制        较高
+
+
+
+
+
+
+
+
